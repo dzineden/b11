@@ -1,0 +1,28 @@
+body{
+	background-color: #F0F0F0;
+}
+.dotted-bdr{
+	border: dotted 1px red ;
+}
+
+.site-nav{}
+.site-nav ul{background-color: white;border:solid 1px green;}
+.site-nav ul li{display: inline}
+
+
+.spacer{
+	height: 500px;
+	border-left: dotted 1px #CCC;
+}
+
+.blue{
+	background-color: lightblue;
+}
+.map-container{
+	width:1000px;
+	margin: 20px auto;
+	border:solid 5px lightgray;
+}
+
+
+

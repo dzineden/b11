@@ -1,0 +1,74 @@
+body{
+	background-color: lightblue;
+	padding-top: 60px;
+}
+.dotted-bdr{
+	border: dotted 1px red ;
+}
+
+.site-nav{
+	background-color: lightgreen;
+	border-bottom: solid 6px green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.site-nav ul{text-align: center;list-style: none}
+.site-nav ul li{display: inline}
+
+
+.whatever{
+	min-height: 600px;
+	border-left: dotted 1px #CCC;
+}
+
+.subheading{
+	padding-top: 80px;
+}
+.some-dabba{
+	background-color: green;
+}
+.some-dabba:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+.some-dabba p{
+	float: left;
+}
+
+.title:before{
+	content:"Whatever - ";
+}
+.title:after{
+	content:" - ";
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.circle{
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: green;
+	position: relative;
+	margin:20px auto;
+}
+.inner-circle{
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,.2);
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+
+
