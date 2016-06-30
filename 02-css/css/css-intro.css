@@ -1,0 +1,128 @@
+
+/* selectors 
+
+	selector-name{
+		css-property:value;
+		css-property:value;
+		css-property:value;
+		css-property:value;
+		...
+		...
+		...
+		...
+		...
+		...
+	}
+
+
+*/
+
+*{ /* universal selector */
+	/* border: solid 1px red; */
+	margin: 2px;
+}
+
+body{ /* tag Selector */
+	background-color: wheat;
+}
+h1{
+	border-bottom: solid 5px green;
+	background-color: crimson;
+	padding: 10px;
+	border-radius: 15px 15px 0 0;
+	font-weight: normal;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.container{
+	width: 1000px;
+	margin:20px auto;
+	padding:15px;
+	background-color: #FFF;
+}
+
+#main-heading{
+	background-color: green;
+	border-bottom-color: red;
+}
+
+a:link{
+	color:red;
+}
+a:visited{
+	color:grey;
+}
+a:hover{
+	color:orange;
+	background-color: white;
+	text-decoration: none;
+}
+
+h2{
+	padding-left: 30px;
+	position: relative;
+	
+}
+h2:before{
+	content: "1";
+	width:20px;
+	height: 20px;
+	background-color: red;
+	border-radius:50%;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	line-height: 20px;
+	text-align: center;
+	font-size:12px;
+	color: #FFF;
+	
+}
+h3:before{
+	content: "section - ";
+	text-decoration: underline;
+}
+h3{
+	position: relative;
+	padding-left: 20px;
+}
+h3:after{
+	content: "";
+	width:0;
+	height: 0;
+	border-style:solid;
+	border-width: 7px 10px;
+	border-color: transparent transparent transparent  red ;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.linkz{}
+.linkz li{ /* descendant Selector */
+	border-bottom: solid 2px red;
+} 
+.linkz li:first-child{ 
+	border-top: solid 2px red;
+	text-transform: uppercase;
+} 
+.linkz li:last-child{ 
+	font-size:20px;
+	text-transform: uppercase;
+} 
+.linkz li:nth-child(4n+1){
+	background-color: lightgreen;
+} 
+.linkz li:nth-child(2n){
+	backgrou nd-color: lightblue;
+} 
+.linkz li:nth-child(2){
+	text-transform: uppercase;
+	
+} 
+
+
+
+
