@@ -5,7 +5,6 @@ body{
 .dotted-bdr{
 	border: dotted 1px red ;
 }
-
 .site-nav{
 	background-color: lightgreen;
 	border-bottom: solid 6px green;

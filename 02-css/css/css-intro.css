@@ -116,7 +116,7 @@ h3:after{
 	background-color: lightgreen;
 } 
 .linkz li:nth-child(2n){
-	backgrou nd-color: lightblue;
+	/*background-color: lightblue;*/
 } 
 .linkz li:nth-child(2){
 	text-transform: uppercase;
